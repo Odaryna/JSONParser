@@ -41,7 +41,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self.mapView setRegion:MKCoordinateRegionMake([[self.mapView annotations] objectAtIndex:0].coordinate, MKCoordinateSpanMake(0.1f, 0.1f)) animated:true];
+    [self.mapView setRegion:MKCoordinateRegionMake([[self.mapView annotations] objectAtIndex:0].coordinate, MKCoordinateSpanMake(0.05f, 0.05f)) animated:true];
 }
 
 
@@ -76,7 +76,7 @@
     {
         pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:myIdentifier];
         pinView.canShowCallout = YES;
-        pinView.image = [UIImage imageNamed:@"marker@2x.png"];
+        pinView.image = [UIImage imageNamed:@"marker.png"];
 
     }
     return pinView;
