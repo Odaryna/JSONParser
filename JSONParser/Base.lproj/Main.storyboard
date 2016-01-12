@@ -85,15 +85,19 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWd-HK-MxG">
                                 <rect key="frame" x="-8" y="453" width="336" height="27"/>
+                                <color key="backgroundColor" red="0.064531292769999998" green="0.75779277150000002" blue="0.26305853340000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="D7m-Kn-pYE"/>
+                                </constraints>
                                 <state key="normal" title="SHOW ON THE MAP">
-                                    <color key="titleColor" red="0.37871046949999998" green="0.49793730419999999" blue="0.71362058080000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="SFe-BF-rI2" kind="show" identifier="showMap" id="cdI-0p-hlX"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.064531292769999998" green="0.75779277150000002" blue="0.26305853340000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ict-e4-AxG" firstAttribute="top" secondItem="cWd-HK-MxG" secondAttribute="bottom" id="56e-Uv-B0o"/>
                             <constraint firstItem="IyW-sb-m6g" firstAttribute="centerX" secondItem="cWd-HK-MxG" secondAttribute="centerX" id="7kR-l7-K5S"/>
@@ -158,6 +162,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h48-9T-Mbi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.064531292769999998" green="0.75779277150000002" blue="0.26305853340000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="FC6-wd-awk" kind="relationship" relationship="rootViewController" id="yaU-XY-V9E"/>
