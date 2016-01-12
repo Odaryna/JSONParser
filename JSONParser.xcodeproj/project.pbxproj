@@ -24,6 +24,8 @@
 		84EC78F01C44D32300ED299A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC78EF1C44D32300ED299A /* MapKit.framework */; };
 		84EC78F31C44D38800ED299A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78F21C44D38800ED299A /* MapViewController.m */; };
 		84EC78FE1C44DC8E00ED299A /* BuildingPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78FD1C44DC8E00ED299A /* BuildingPin.m */; };
+		84ED6A131C44EF1700E57099 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ED6A121C44EF1700E57099 /* marker@2x.png */; };
+		84ED6A151C44EF2000E57099 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ED6A141C44EF2000E57099 /* marker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		84EC78F21C44D38800ED299A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
 		84EC78FC1C44DC8E00ED299A /* BuildingPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingPin.h; sourceTree = "<group>"; };
 		84EC78FD1C44DC8E00ED299A /* BuildingPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingPin.m; sourceTree = "<group>"; };
+		84ED6A121C44EF1700E57099 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker@2x.png"; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/CE582280-2A77-46F9-B793-83CABCFA802C/marker@2x.png"; sourceTree = "<group>"; };
+		84ED6A141C44EF2000E57099 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/76111312-9337-48B8-85BA-E2BC543A2935/marker.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				84249E441C4469D300A2AF2F /* BuildingCell.m */,
 				84EC78E81C44726E00ED299A /* check_ic_green@2x.png */,
 				84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */,
+				84ED6A121C44EF1700E57099 /* marker@2x.png */,
+				84ED6A141C44EF2000E57099 /* marker.png */,
 				84EC78FC1C44DC8E00ED299A /* BuildingPin.h */,
 				84EC78FD1C44DC8E00ED299A /* BuildingPin.m */,
 			);
@@ -285,7 +291,9 @@
 				84249E151C44573000A2AF2F /* LaunchScreen.storyboard in Resources */,
 				84249E121C44573000A2AF2F /* Assets.xcassets in Resources */,
 				84249E0D1C44573000A2AF2F /* Main.storyboard in Resources */,
+				84ED6A131C44EF1700E57099 /* marker@2x.png in Resources */,
 				84EC78E91C44726E00ED299A /* check_ic_green@2x.png in Resources */,
+				84ED6A151C44EF2000E57099 /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
