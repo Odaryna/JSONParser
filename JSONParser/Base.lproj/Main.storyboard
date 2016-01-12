@@ -132,18 +132,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="slp-U6-tQR">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="6nH-92-pwe"/>
-                                    <constraint firstAttribute="height" constant="480" id="bBP-xM-QvS"/>
-                                </constraints>
+                                <rect key="frame" x="-4" y="0.0" width="328" height="480"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="slp-U6-tQR" firstAttribute="top" secondItem="tmr-WB-b1o" secondAttribute="topMargin" id="8qb-cm-0nw"/>
                             <constraint firstItem="slp-U6-tQR" firstAttribute="bottom" secondItem="pC7-mH-jxC" secondAttribute="top" id="HB5-hH-1YF"/>
                             <constraint firstItem="slp-U6-tQR" firstAttribute="leading" secondItem="tmr-WB-b1o" secondAttribute="leading" id="VFa-he-tda"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="slp-U6-tQR" secondAttribute="trailing" constant="-20" id="etk-ih-QpS"/>
+                            <constraint firstItem="pC7-mH-jxC" firstAttribute="top" secondItem="slp-U6-tQR" secondAttribute="bottom" id="g0j-w9-cs0"/>
+                            <constraint firstItem="slp-U6-tQR" firstAttribute="leading" secondItem="tmr-WB-b1o" secondAttribute="leadingMargin" constant="-20" id="s5C-cv-PFc"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VFa-he-tda"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
