@@ -132,28 +132,25 @@
 			children = (
 				84249E051C44573000A2AF2F /* AppDelegate.h */,
 				84249E061C44573000A2AF2F /* AppDelegate.m */,
+				84249E0B1C44573000A2AF2F /* Main.storyboard */,
 				84EC78EC1C44CB3C00ED299A /* ViewController.h */,
 				84EC78ED1C44CB3C00ED299A /* ViewController.m */,
 				84EC78F11C44D38800ED299A /* MapViewController.h */,
 				84EC78F21C44D38800ED299A /* MapViewController.m */,
-				84249E111C44573000A2AF2F /* Assets.xcassets */,
-				84249E161C44573000A2AF2F /* Info.plist */,
-				84249E0E1C44573000A2AF2F /* JSONParser.xcdatamodeld */,
-				84249E131C44573000A2AF2F /* LaunchScreen.storyboard */,
-				84249E0B1C44573000A2AF2F /* Main.storyboard */,
-				84249E021C44573000A2AF2F /* Supporting Files */,
 				84249E381C4458FE00A2AF2F /* BuildingsParser.h */,
 				84249E391C4458FE00A2AF2F /* BuildingsParser.m */,
 				84249E3B1C445BD500A2AF2F /* Building.h */,
 				84249E3C1C445BD500A2AF2F /* Building.m */,
 				84249E431C4469D300A2AF2F /* BuildingCell.h */,
 				84249E441C4469D300A2AF2F /* BuildingCell.m */,
+				84EC78FC1C44DC8E00ED299A /* BuildingPin.h */,
+				84EC78FD1C44DC8E00ED299A /* BuildingPin.m */,
 				84EC78E81C44726E00ED299A /* check_ic_green@2x.png */,
 				84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */,
 				84ED6A121C44EF1700E57099 /* marker@2x.png */,
 				84ED6A141C44EF2000E57099 /* marker.png */,
-				84EC78FC1C44DC8E00ED299A /* BuildingPin.h */,
-				84EC78FD1C44DC8E00ED299A /* BuildingPin.m */,
+				84249E161C44573000A2AF2F /* Info.plist */,
+				84249E021C44573000A2AF2F /* Supporting Files */,
 			);
 			path = JSONParser;
 			sourceTree = "<group>";
@@ -162,6 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				84249E031C44573000A2AF2F /* main.m */,
+				84249E131C44573000A2AF2F /* LaunchScreen.storyboard */,
+				84249E0E1C44573000A2AF2F /* JSONParser.xcdatamodeld */,
+				84249E111C44573000A2AF2F /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
