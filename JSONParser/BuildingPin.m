@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  BuildingPin.m
 //  JSONParser
 //
 //  Created by Admin on 1/12/16.
 //  Copyright © 2016 Admin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BuildingPin.h"
 
-@interface ViewController : UIViewController
+@implementation BuildingPin
 
 @end

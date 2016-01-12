@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		84249E041C44573000A2AF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E031C44573000A2AF2F /* main.m */; };
 		84249E071C44573000A2AF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E061C44573000A2AF2F /* AppDelegate.m */; };
-		84249E0A1C44573000A2AF2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E091C44573000A2AF2F /* ViewController.m */; };
 		84249E0D1C44573000A2AF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84249E0B1C44573000A2AF2F /* Main.storyboard */; };
 		84249E101C44573000A2AF2F /* JSONParser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84249E0E1C44573000A2AF2F /* JSONParser.xcdatamodeld */; };
 		84249E121C44573000A2AF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84249E111C44573000A2AF2F /* Assets.xcassets */; };
 		84249E151C44573000A2AF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84249E131C44573000A2AF2F /* LaunchScreen.storyboard */; };
 		84249E201C44573000A2AF2F /* JSONParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E1F1C44573000A2AF2F /* JSONParserTests.m */; };
 		84249E2B1C44573000A2AF2F /* JSONParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E2A1C44573000A2AF2F /* JSONParserUITests.m */; };
+		84249E3A1C4458FE00A2AF2F /* BuildingsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E391C4458FE00A2AF2F /* BuildingsParser.m */; };
+		84249E3D1C445BD500A2AF2F /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E3C1C445BD500A2AF2F /* Building.m */; };
+		84249E451C4469D300A2AF2F /* BuildingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E441C4469D300A2AF2F /* BuildingCell.m */; };
+		84EC78E91C44726E00ED299A /* check_ic_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC78E81C44726E00ED299A /* check_ic_green@2x.png */; };
+		84EC78EB1C44727100ED299A /* check_ic_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */; };
+		84EC78EE1C44CB3C00ED299A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78ED1C44CB3C00ED299A /* ViewController.m */; };
+		84EC78F01C44D32300ED299A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC78EF1C44D32300ED299A /* MapKit.framework */; };
+		84EC78F31C44D38800ED299A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78F21C44D38800ED299A /* MapViewController.m */; };
+		84EC78FE1C44DC8E00ED299A /* BuildingPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78FD1C44DC8E00ED299A /* BuildingPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +48,6 @@
 		84249E031C44573000A2AF2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84249E051C44573000A2AF2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84249E061C44573000A2AF2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84249E081C44573000A2AF2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84249E091C44573000A2AF2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84249E0C1C44573000A2AF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84249E0F1C44573000A2AF2F /* JSONParser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSONParser.xcdatamodel; sourceTree = "<group>"; };
 		84249E111C44573000A2AF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,21 @@
 		84249E261C44573000A2AF2F /* JSONParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84249E2A1C44573000A2AF2F /* JSONParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONParserUITests.m; sourceTree = "<group>"; };
 		84249E2C1C44573000A2AF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84249E381C4458FE00A2AF2F /* BuildingsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingsParser.h; sourceTree = "<group>"; };
+		84249E391C4458FE00A2AF2F /* BuildingsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingsParser.m; sourceTree = "<group>"; };
+		84249E3B1C445BD500A2AF2F /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		84249E3C1C445BD500A2AF2F /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		84249E431C4469D300A2AF2F /* BuildingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingCell.h; sourceTree = "<group>"; };
+		84249E441C4469D300A2AF2F /* BuildingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingCell.m; sourceTree = "<group>"; };
+		84EC78E81C44726E00ED299A /* check_ic_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_ic_green@2x.png"; path = "../../IOS Test/IOS test_iPhone_assets/check_ic_green@2x.png"; sourceTree = "<group>"; };
+		84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_ic_grey@2x.png"; path = "../../IOS Test/IOS test_iPhone_assets/check_ic_grey@2x.png"; sourceTree = "<group>"; };
+		84EC78EC1C44CB3C00ED299A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EC78ED1C44CB3C00ED299A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EC78EF1C44D32300ED299A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84EC78F11C44D38800ED299A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		84EC78F21C44D38800ED299A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		84EC78FC1C44DC8E00ED299A /* BuildingPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingPin.h; sourceTree = "<group>"; };
+		84EC78FD1C44DC8E00ED299A /* BuildingPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC78F01C44D32300ED299A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +105,7 @@
 		84249DF61C44573000A2AF2F = {
 			isa = PBXGroup;
 			children = (
+				84EC78EF1C44D32300ED299A /* MapKit.framework */,
 				84249E011C44573000A2AF2F /* JSONParser */,
 				84249E1E1C44573000A2AF2F /* JSONParserTests */,
 				84249E291C44573000A2AF2F /* JSONParserUITests */,
@@ -105,14 +128,26 @@
 			children = (
 				84249E051C44573000A2AF2F /* AppDelegate.h */,
 				84249E061C44573000A2AF2F /* AppDelegate.m */,
-				84249E081C44573000A2AF2F /* ViewController.h */,
-				84249E091C44573000A2AF2F /* ViewController.m */,
-				84249E0B1C44573000A2AF2F /* Main.storyboard */,
+				84EC78EC1C44CB3C00ED299A /* ViewController.h */,
+				84EC78ED1C44CB3C00ED299A /* ViewController.m */,
+				84EC78F11C44D38800ED299A /* MapViewController.h */,
+				84EC78F21C44D38800ED299A /* MapViewController.m */,
 				84249E111C44573000A2AF2F /* Assets.xcassets */,
-				84249E131C44573000A2AF2F /* LaunchScreen.storyboard */,
 				84249E161C44573000A2AF2F /* Info.plist */,
 				84249E0E1C44573000A2AF2F /* JSONParser.xcdatamodeld */,
+				84249E131C44573000A2AF2F /* LaunchScreen.storyboard */,
+				84249E0B1C44573000A2AF2F /* Main.storyboard */,
 				84249E021C44573000A2AF2F /* Supporting Files */,
+				84249E381C4458FE00A2AF2F /* BuildingsParser.h */,
+				84249E391C4458FE00A2AF2F /* BuildingsParser.m */,
+				84249E3B1C445BD500A2AF2F /* Building.h */,
+				84249E3C1C445BD500A2AF2F /* Building.m */,
+				84249E431C4469D300A2AF2F /* BuildingCell.h */,
+				84249E441C4469D300A2AF2F /* BuildingCell.m */,
+				84EC78E81C44726E00ED299A /* check_ic_green@2x.png */,
+				84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */,
+				84EC78FC1C44DC8E00ED299A /* BuildingPin.h */,
+				84EC78FD1C44DC8E00ED299A /* BuildingPin.m */,
 			);
 			path = JSONParser;
 			sourceTree = "<group>";
@@ -246,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC78EB1C44727100ED299A /* check_ic_grey@2x.png in Resources */,
 				84249E151C44573000A2AF2F /* LaunchScreen.storyboard in Resources */,
 				84249E121C44573000A2AF2F /* Assets.xcassets in Resources */,
 				84249E0D1C44573000A2AF2F /* Main.storyboard in Resources */,
+				84EC78E91C44726E00ED299A /* check_ic_green@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84249E0A1C44573000A2AF2F /* ViewController.m in Sources */,
+				84EC78FE1C44DC8E00ED299A /* BuildingPin.m in Sources */,
+				84249E3A1C4458FE00A2AF2F /* BuildingsParser.m in Sources */,
+				84EC78EE1C44CB3C00ED299A /* ViewController.m in Sources */,
+				84EC78F31C44D38800ED299A /* MapViewController.m in Sources */,
 				84249E071C44573000A2AF2F /* AppDelegate.m in Sources */,
 				84249E101C44573000A2AF2F /* JSONParser.xcdatamodeld in Sources */,
 				84249E041C44573000A2AF2F /* main.m in Sources */,
+				84249E3D1C445BD500A2AF2F /* Building.m in Sources */,
+				84249E451C4469D300A2AF2F /* BuildingCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +544,7 @@
 				84249E311C44573000A2AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84249E321C44573000A2AF2F /* Build configuration list for PBXNativeTarget "JSONParserTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +553,7 @@
 				84249E341C44573000A2AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84249E351C44573000A2AF2F /* Build configuration list for PBXNativeTarget "JSONParserUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +562,7 @@
 				84249E371C44573000A2AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
