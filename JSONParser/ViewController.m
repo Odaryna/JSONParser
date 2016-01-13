@@ -11,6 +11,7 @@
 #import "Building.h"
 #import "BuildingCell.h"
 #import "MapViewController.h"
+#import "WebLoading.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -33,7 +34,6 @@
     NSData *data = [NSData dataWithContentsOfURL:url];
     [self.tableView setDataSource:self];
     [self.tableView setDelegate:self];
-    
     
     NSArray* response = [BuildingsParser parseJSONtoDictionary:data];
     self.arrayOfBuildings = [NSMutableArray new];
@@ -72,17 +72,28 @@
     
     Building *currentBuild = [self.arrayOfBuildings objectAtIndex:indexPath.row];
     
-    NSURL *url = [NSURL URLWithString:currentBuild.urlForImage];
-    NSData *imageData = [[NSData alloc] initWithContentsOfURL:url];
-    UIImage *image = [[UIImage alloc] initWithData:imageData];
-    
+    [WebLoading loadFromURL:[NSURL URLWithString:currentBuild.urlForImage] callback:^(UIImage *image)
+    {
+        if (image)
+        {
+            cell.leftImage.image = image;
+        }
+        else
+        {
+            NSLog(@"Error occured by loading image!");
+        }
+    }];
+  
     cell.title.text = currentBuild.title;
     cell.descript.text = currentBuild.descriptionOfBuild;
     
-    cell.leftImage.image = image;
     if (!cell.isSelected)
     {
        cell.rightImage.image = [UIImage imageNamed:@"check_ic_grey@2x.png"];
+    }
+    else
+    {
+        cell.rightImage.image = [UIImage imageNamed:@"check_ic_green@2x.png"];
     }
     
     return cell;

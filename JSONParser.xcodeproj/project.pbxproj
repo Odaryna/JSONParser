@@ -18,6 +18,7 @@
 		84249E3A1C4458FE00A2AF2F /* BuildingsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E391C4458FE00A2AF2F /* BuildingsParser.m */; };
 		84249E3D1C445BD500A2AF2F /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E3C1C445BD500A2AF2F /* Building.m */; };
 		84249E451C4469D300A2AF2F /* BuildingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84249E441C4469D300A2AF2F /* BuildingCell.m */; };
+		84E1BAFC1C4628B600CAB5BD /* WebLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1BAFB1C4628B600CAB5BD /* WebLoading.m */; };
 		84EC78E91C44726E00ED299A /* check_ic_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC78E81C44726E00ED299A /* check_ic_green@2x.png */; };
 		84EC78EB1C44727100ED299A /* check_ic_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */; };
 		84EC78EE1C44CB3C00ED299A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC78ED1C44CB3C00ED299A /* ViewController.m */; };
@@ -67,6 +68,8 @@
 		84249E3C1C445BD500A2AF2F /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
 		84249E431C4469D300A2AF2F /* BuildingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingCell.h; sourceTree = "<group>"; };
 		84249E441C4469D300A2AF2F /* BuildingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingCell.m; sourceTree = "<group>"; };
+		84E1BAFA1C4628B600CAB5BD /* WebLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebLoading.h; sourceTree = "<group>"; };
+		84E1BAFB1C4628B600CAB5BD /* WebLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebLoading.m; sourceTree = "<group>"; };
 		84EC78E81C44726E00ED299A /* check_ic_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_ic_green@2x.png"; path = "../../IOS Test/IOS test_iPhone_assets/check_ic_green@2x.png"; sourceTree = "<group>"; };
 		84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_ic_grey@2x.png"; path = "../../IOS Test/IOS test_iPhone_assets/check_ic_grey@2x.png"; sourceTree = "<group>"; };
 		84EC78EC1C44CB3C00ED299A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				84249E441C4469D300A2AF2F /* BuildingCell.m */,
 				84EC78FC1C44DC8E00ED299A /* BuildingPin.h */,
 				84EC78FD1C44DC8E00ED299A /* BuildingPin.m */,
+				84E1BAFA1C4628B600CAB5BD /* WebLoading.h */,
+				84E1BAFB1C4628B600CAB5BD /* WebLoading.m */,
 				84EC78E81C44726E00ED299A /* check_ic_green@2x.png */,
 				84EC78EA1C44727100ED299A /* check_ic_grey@2x.png */,
 				84ED6A121C44EF1700E57099 /* marker@2x.png */,
@@ -321,6 +326,7 @@
 				84EC78FE1C44DC8E00ED299A /* BuildingPin.m in Sources */,
 				84249E3A1C4458FE00A2AF2F /* BuildingsParser.m in Sources */,
 				84EC78EE1C44CB3C00ED299A /* ViewController.m in Sources */,
+				84E1BAFC1C4628B600CAB5BD /* WebLoading.m in Sources */,
 				84EC78F31C44D38800ED299A /* MapViewController.m in Sources */,
 				84249E071C44573000A2AF2F /* AppDelegate.m in Sources */,
 				84249E101C44573000A2AF2F /* JSONParser.xcdatamodeld in Sources */,
